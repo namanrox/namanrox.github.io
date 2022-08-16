@@ -1,0 +1,88 @@
+.skills-page {
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+  }
+
+  p {
+    color: #fff;
+    font-family: 'sans-serif';
+    font-size: 16px;
+
+    a:link {
+      color: #ffd700;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: #ffd700;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: pink;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    
+    a:active {
+      color: #ffd700;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+  }
+
+  h1 {
+    color: #ffd700;
+    font-size: 56px;
+    line-height: 53px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+
+    &:before {
+      content: '<h1>';
+      font-family: 'La Belle Aurore', cursive;
+      color: #ffd700;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -40px;
+      left: -15px;
+      opacity: 0.6;
+    }
+
+    &:after {
+      content: '</h1>';
+      font-family: 'La Belle Aurore', cursive;
+      color: #ffd700;
+      font-size: 18px;
+      position: absolute;
+      margin-top: 18px;
+      margin-left: 20px;
+      animation: fadeIn 1s 1.7s backwards;
+      opacity: 0.6;
+    }
+    .text-zone {
+      position: absolute;
+      left: 10%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 35%;
+      vertical-align: middle;
+      display: table-cell;
+      max-height: 90%;
+    }
+
+    .text-animate-hover {
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}
