@@ -58,7 +58,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://github.com/Naman-codes2001"
+            href="https://github.com/namanrox"
             target="_blank"
             rel="noreferrer"
           >
