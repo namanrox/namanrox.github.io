@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
-import gsap from 'gsap'
-import PixiPlugin from 'gsap/PixiPlugin'
+import gsap from 'gsap-trial'
+import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
 import LogoS from '../../../assets/images/logo-s.png'
 import './index.scss'
 
@@ -10,7 +10,7 @@ const Logo = () => {
   const solidLogoRef = useRef()
 
   useEffect(() => {
-    gsap.registerPlugin(PixiPlugin)
+    gsap.registerPlugin(DrawSVGPlugin)
 
     gsap
       .timeline()
@@ -19,7 +19,7 @@ const Logo = () => {
         opacity: 1,
       })
       .from(outlineLogoRef.current, {
-        PixiPlugin: 0,
+        drawSVG: 0,
         duration: 20,
       })
 
@@ -42,7 +42,7 @@ const Logo = () => {
         className="solid-logo"
         ref={solidLogoRef}
         src={LogoS}
-        alt="JavaScript,  Developer"
+        alt="JavaScript, Web Developer"
       />
 
       <svg
