@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
-import gsap from 'gsap-trial'
-import PixiPlugin from 'gsap-trial/PixiPlugin'
+import gsap from 'gsap'
+import PixiPlugin from 'gsap/PixiPlugin'
 import LogoS from '../../../assets/images/logo-s.png'
 import './index.scss'
 
@@ -19,7 +19,7 @@ const Logo = () => {
         opacity: 1,
       })
       .from(outlineLogoRef.current, {
-        drawSVG: 0,
+        PixiPlugin: 0,
         duration: 20,
       })
 
