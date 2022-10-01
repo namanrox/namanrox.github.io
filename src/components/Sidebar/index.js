@@ -85,7 +85,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://www.instagram.com/coder_naman991/"
+            href="https://www.instagram.com/naman_rox/"
             rel="noreferrer"
             target="_blank"
           >
