@@ -2,7 +2,7 @@
 [![Language](https://img.shields.io/badge/Language-Javascript-blue.svg?style=flat)](https://www.javascript.com/)
 [![Framework](https://img.shields.io/badge/Framework-Reactjs-brightgreen.svg?style=flat)](https://reactjs.org/)
 ####
-Visit [here](https://namanrox.github.io/) to have a look of the portfolio.
+Visit [here](https://namanrox.vercel.app/) to have a look of the portfolio.
 
 ## Environmental Setup 
 - The portfolio is developed in VS Code.
